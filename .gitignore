@@ -1,0 +1,43 @@
+﻿# 项目忽略文件
+*/logs/
+.DS_Store
+composer.lock
+app/logs/*
+app/config/config.php
+app/config/database.php
+app/tempdata/session/*
+app/config/redis.php
+app/cache/*
+assets/qrcode/*
+assets/uploads/*
+tempdata/session/*
+tempdata/captcha/*
+tempdata/uploads/*.xlsx
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime 编辑器缓存文件
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+
+# leeprince 忽略文件
+.tags
+.tags_sorted_by_file
+.favicon.ico
+/.phpintel/
+
+
+# black.zhang 忽略文件
+.settings/
+.buildpath
+.project
+
+

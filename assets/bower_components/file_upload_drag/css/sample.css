@@ -1,0 +1,104 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, html, p, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica", serif;
+  font-weight: normal; }
+
+code {
+  font-family: "Consolas", "Monaco", monospace;
+  font-weight: normal; }
+
+body, html, p, code {
+  color: #888888; }
+
+.contents {
+  width: 1280px;
+  height: 800px;
+  border:1px solid #cc006a;
+   }
+    
+
+.placeholder .queueList{
+  width: 1282px;
+  height: 802px;
+}
+.queueList{
+  margin-left: 500px;
+}
+
+
+.formats .format {
+  display: inline-block; }
+
+.zip {
+ /* background: url("../images/zip.png");*/
+  display: block;
+  width: 128px;
+  height: 128px; }
+
+.tar {
+ /* background: url("../images/tar.png");*/
+  display: block;
+  width: 128px;
+  height: 128px; }
+
+.fork {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0; }
+
+.button {
+  display: block;
+  padding: 20px;
+  width: 200px;
+  color: white;
+  background: #888888;
+  margin: 20px 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px; }
+
+pre .support.tag {
+  color: #000088; }
+pre .support.attribute {
+  color: #880000; }
+pre .string.value {
+  color: #008800; }
+
+.content {
+  position: relative; }
+  .header_style{
+	   position: relative;
+  }
+  .col-style{
+	  //position: absolute;
+	  
+  }
+  .content .brick {
+    opacity: 1;
+    cursor: pointer;
+    position: relative; }
+    .content .brick .action {
+      display: block;
+      color: white;
+      background-color: rgba(100,100,100,0.4);
+      height: 30px;
+      bottom:0;
+      position: absolute;
+      text-align: center;
+      font-size: 20px;
+      filter:alpha(Opacity=60);
+    }
+
+    .content .brick.large {
+      width: 300px;
+      height: 300px; }
+    .content .brick.dragging {
+      opacity: 0.8; }
+    .content .brick:nth-child(n) {
+      background: #efefef; }
+

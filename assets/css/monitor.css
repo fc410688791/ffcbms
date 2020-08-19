@@ -1,0 +1,288 @@
+.statusBtn {
+    background-color: #c7c7c7;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.allStatusBtn {
+    margin-right: 20px;
+}
+.statusBtn .siconPre {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #ffcc02;
+    margin-right: 5px;
+} 
+.statusBtn .siconUse {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #01cc33;
+    margin-right: 5px;
+} 
+.statusBtn .siconOffline {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #797979;
+    margin-right: 5px;
+} 
+.statusBtn .siconError {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #c00;
+    margin-right: 5px;
+} 
+.statusBtn .siconTimeout {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #b298f1;
+    margin-right: 5px;
+}
+.statusBtn .sicon4Gofflime {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #4c09ef;
+    margin-right: 5px;
+}
+
+.statusBtn .siconNocommend {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #e430bd;
+    margin-right: 5px;
+}
+.statusBtn .siconAliex {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #050010;
+    margin-right: 5px;
+} 
+ 
+.statusBtnAct {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #1eb583;
+}
+
+
+.machineLine {
+    position: relative;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.machineBox {
+    display: inline-block;
+    margin:5px;
+    line-height: 100px;
+    cursor:pointer;
+    /*text-align: center;*/
+
+}
+.visibility {
+    visibility: hidden;
+    width: 100px;
+}
+.machineBoxVisibilityHidden {
+    visibility: hidden;
+}
+
+
+.machineLine.font {
+    background-color: #ccc;
+    margin-right:10px;
+    margin-bottom:20px;
+    height: 100px;
+}
+.machineLine.back {
+    background-color: #ccc;
+    height: 100px;
+}
+
+.uPosition {
+    position:relative;
+}
+.pText {
+    color: #fff;
+    z-index: 100;
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    height: 0px;
+}
+.pDiv {
+    /*border-bottom: 30px solid transparent;
+    border-left: 110px solid #92c4f1;*/
+    width: 100px;
+    height: 30px;
+    background-color: #92c4f1;
+    position: absolute;
+}
+
+.uPositionBack {
+    position:relative;
+}
+.pBackText {
+    color: #fff;
+    z-index: 100;
+    position: absolute;
+    right: 5px;
+    top: -40px;
+}
+.pBackDiv {
+    border-bottom: 40px solid transparent;
+    border-right: 65px solid #92c4f1;
+    position: absolute;
+    right: 0;
+}
+
+.userNum {
+    position:relative;
+}
+.mNum {
+    color:#fff;
+    font-size: 32px;
+    position:absolute;
+    top:-15px;
+    left:35px;
+    z-index: 1000;
+}
+.mNumDiv {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #b9b7b1;
+    position:relative;
+    top:13px;
+    left:20px;
+}
+
+.userCode {
+    position:relative;
+}
+.uCode {
+    position:absolute;
+    top:-35px;
+    left:10px;
+}
+.uCodeDiv {
+    width: 92px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.tipsLine {
+    display: flex;
+    justify-content: row;
+    color: #000;
+}
+.tipsLine .title {
+    width: 100px;
+}
+.tipsButton {
+    text-align: center;
+    color: #f00;
+}
+
+
+.inlineBlock {
+    display: inline-block;
+}
+
+
+.statusBtnImg {
+    height: 20px;
+    width: 20px;
+}
+.merchantInfo {
+    /*display: flex;
+    flex-flow: row;
+    align-items: flex-end;*/
+    text-align: center;
+    height: :200px;
+    font-size: 20px;
+    background-color:#2209f1;
+    font-weight: bold;
+    color: #fff;
+}
+.merchantInfo .merchantName {
+    font-weight: normal;
+
+}
+.merchantInfo .merchantPositionName {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.stakeInfo {
+    display: flex;
+    flex-flow: row wrap;
+}
+.stakeInfoIterm {
+    margin: 10px 10px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.stakeInfoItermPosition {
+    width: 100px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.machinePositonName {
+    /*display: inline-block;*/
+    /*background-color: #eee;*/
+    background-size:80px;
+    min-width: 50px;
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
